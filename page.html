@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Image Quiz</title>
+  </head>
+  <body>
+    <h1>Random Image Quiz</h1>
+    <p>What is the text associated with the image below?</p>
+    <img id="image" width="100" height="100" />
+    <br />
+    <input type="text" id="user-answer" />
+    <button onclick="checkAnswer()">Check Answer</button>
+    <button onclick="resetScore()">Reset Score</button>
+    <br />
+    <p id="result"></p>
+    <p>Score: <span id="score">0</span></p>
+    <p>Correct: <span id="correct">0</span></p>
+    <p>Incorrect: <span id="incorrect">0</span></p>
+    <p>Correct answer: <span id="TESTANSWER">x</span></p>
+    <script src="script.js"></script>
+    <script>
+      run();
+    </script>
+  </body>
+</html>
